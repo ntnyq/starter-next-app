@@ -1,0 +1,16 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "cSpell.words": [
+    "bumpp",
+    "changelogithub",
+    "pnpm",
+    "vercel"
+  ],
+  "typescript.tsdk": "node_modules/.pnpm/typescript@4.9.5/node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}
