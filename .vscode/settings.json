@@ -1,16 +1,15 @@
 {
-  "eslint.validate": [
-    "javascript",
-    "typescript",
-    "javascriptreact",
-    "typescriptreact"
-  ],
-  "cSpell.words": [
-    "bumpp",
-    "changelogithub",
-    "pnpm",
-    "vercel"
-  ],
+  "eslint.enable": false,
+  "prettier.enable": true,
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "cSpell.words": ["bumpp", "changelogithub", "clsx", "pnpm", "vercel"],
+  "cSpell.allowCompoundWords": true,
   "typescript.tsdk": "node_modules/.pnpm/typescript@4.9.5/node_modules/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true
 }

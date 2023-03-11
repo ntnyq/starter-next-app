@@ -1,11 +1,11 @@
 import '../css/tailwind.css'
 import { AppProps } from 'next/app'
-import { Analytics } from '@vercel/analytics/react'
+import { AnalyticsWrapper } from 'src/components/Analytics'
 
 const App = ({ Component, pageProps }: AppProps) => (
   <>
     <Component {...pageProps} />
-    {process.env.NODE_ENV === `production` && <Analytics />}
+    {process.env.NODE_ENV === 'production' && <AnalyticsWrapper />}
   </>
 )
 

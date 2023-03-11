@@ -4,9 +4,15 @@
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./**/*.{tsx,ts}'],
+  content: [
+    './**/*.{tsx,ts}'
+  ],
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')({
+      strategy: 'class',
+    })
+  ],
 }

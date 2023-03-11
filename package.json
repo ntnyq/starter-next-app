@@ -1,40 +1,42 @@
 {
   "name": "hello-world",
   "version": "0.1.0",
-  "packageManager": "pnpm@7.27.0",
+  "packageManager": "pnpm@7.29.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
     "release": "bumpp",
     "typecheck": "tsc --noEmit",
     "prepare": "husky install",
     "format": "prettier --cache --write **/*.{md,ts,tsx}"
   },
   "dependencies": {
-    "@types/node": "18.13.0",
+    "@types/node": "18.15.0",
     "@types/react": "18.0.28",
-    "@types/react-dom": "18.0.10",
-    "@vercel/analytics": "^0.1.8",
-    "next": "13.1.6",
+    "@types/react-dom": "18.0.11",
+    "@vercel/analytics": "^0.1.11",
+    "clsx": "^1.2.1",
+    "next": "13.2.4",
     "next-seo": "^5.15.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-github-corner": "^2.5.0",
-    "typescript": "4.9.5"
+    "react-github-corner": "^2.5.0"
   },
   "devDependencies": {
-    "@ntnyq/prettier-config": "^1.3.1",
-    "autoprefixer": "^10.4.13",
+    "@ntnyq/prettier-config": "^1.4.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "autoprefixer": "^10.4.14",
     "husky": "^8.0.3",
     "nano-staged": "^0.8.0",
     "postcss": "^8.4.21",
     "prettier": "^2.8.4",
-    "tailwindcss": "^3.2.6"
+    "tailwindcss": "^3.2.7",
+    "turbo": "^1.8.3",
+    "typescript": "4.9.5"
   },
   "prettier": "@ntnyq/prettier-config",
   "nano-staged": {
-    "*.{md,ts,tsx}": "prettier --write"
+    "*.{ts,tsx,md,yml,yaml,json}": "prettier --write"
   }
 }
