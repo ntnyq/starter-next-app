@@ -49,7 +49,7 @@ export default function Index() {
           onSubmit={onSubmit}
           className='my-8'
         >
-          <div className='flex space-x-2'>
+          <div className='flex space-x-2 mb-4'>
             <input
               className={clsx(
                 'form-input w-full rounded-xl',
@@ -67,6 +67,25 @@ export default function Index() {
             >
               Go
             </button>
+          </div>
+          <div className='flex mb-4'>
+            <select
+              className='form-select w-full rounded-xl'
+              name=''
+              id=''
+            >
+              <option value='苹果'>苹果</option>
+              <option value='橙子'>橙子</option>
+              <option value='水蜜桃'>水蜜桃</option>
+            </select>
+          </div>
+          <div className='flex'>
+            <textarea
+              className='form-textarea w-full rounded-xl'
+              name=''
+              id=''
+              rows={6}
+            ></textarea>
           </div>
         </form>
         <main className='my-8'></main>
