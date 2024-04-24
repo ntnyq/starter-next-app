@@ -2,14 +2,6 @@
   "eslint.enable": false,
   "prettier.enable": true,
   "editor.formatOnSave": true,
-  "[typescript]": {
-    "editor.formatOnSave": true
-  },
-  "[typescriptreact]": {
-    "editor.formatOnSave": true
-  },
   "cSpell.words": ["bumpp", "changelogithub", "clsx", "nextjs", "pnpm", "vercel"],
-  "cSpell.allowCompoundWords": true,
-  "typescript.tsdk": "./node_modules/typescript/lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true
+  "cSpell.allowCompoundWords": true
 }

@@ -1,4 +1,4 @@
-import '../styles/tailwind.css'
+import '../styles/app.css'
 import type { AppProps } from 'next/app'
 import { GoogleAnalytics } from 'nextjs-google-analytics'
 
